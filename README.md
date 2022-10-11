@@ -1,3 +1,7 @@
-# Gdsc_jec_website
-Beginner friendly repo , create PR and get 1 task completed.
-Make the required changes in the diffrent parts of the web site to enhance the looking of the site.
+ **GDSC_JEC_Website**
+ - Open Source Website For the Official Google Developer Students Club JEC
+ - Do Contribute in Buiding the website for the betterment of Geeks and college students 
+ - Accepting the PR as Hactoberfest 
+ - check for bugs and Correct them
+ - Add new Features 
+
