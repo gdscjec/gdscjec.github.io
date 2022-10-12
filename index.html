@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GDSC - JEC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="GDSC JEC"/>
+    <meta name="author" content="GDSC MITAOE"/>
     <meta name="description"
           content="Google Developer Student Clubs (GDSC) is a Google Developers program for university students to learn mobile and web development skills.">
     <meta name="keywords"
-          content="dsc, JEC, google developers, DSC JEC"/>
+          content="dsc, MITAOE, google developers, DSC MITAOE"/>
     <meta property="og:image" content="images/assets/logo.png">       
     <link href="css/ionicons.min.css" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
@@ -38,6 +38,9 @@
 href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
 rel="stylesheet"
 />
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
     
 
 
@@ -82,12 +85,17 @@ rel="stylesheet"
 
 <header id="hero" class="hero">
     <div class="container">
+        <!-- <div class=" align-items-center text-center mb-lg-3">
+            <h3 class="hire-title">We are looking for new team members!</h3>
+            <p>Join us and grow your knowledge in a peer-to-peer learning environment.</p>
+            <a href="apply.html" class="hero-button d-inline-block" rel="noopener"><i class="fa fa-mouse-pointer"></i> &nbsp; Apply Now</a>
+        </div> -->
         <div class="row align-items-center">
             <div class="col-12 col-sm-6">
                 <div class="hero-content">
                     <div class="hero-title__group">
                         <div class="hero-title">
-                            <h1 class="zuri"><br>Google Developer Student Clubs<br>@ <img data-src="images/JEC-LOGO.png" class="img-fluid" alt="JEC_LOGO" width="40%"
+                            <h1 class="zuri"><br>Google Developer Student Clubs<br>@ <img data-src="images/JEC-LOGO.png" class="img-fluid" alt="MITAOE" width="40%"
                                 height="40%"></h1>
                         </div>
                         <div class="Hero--Subtitle">
@@ -99,7 +107,7 @@ rel="stylesheet"
                             </p>
                         </div>
                     </div>
-                     <a href="https://gdsc.community.dev/jabalpur-engineering-college-jabalpur/" class="hero-button" target="_blank" rel="noopener"><i class="fab fa-meetup"></i> &nbsp; Become Member</a> 
+                     <a href="https://dsc.community.dev/mit-academy-of-engineering-pune/" class="hero-button" target="_blank" rel="noopener"><i class="fab fa-meetup"></i> &nbsp; Become Member</a> 
                 </div>
             </div>
             <div class="col-12 col-sm-5 ml-auto">
@@ -279,87 +287,194 @@ rel="stylesheet"
         <div class="tab-content">
             <!--Upcoming events-->
             <div class="tab-pane active" id="upcoming" role="tabpanel" aria-labelledby="upcoming">
-                <div class="row" id="upcoming_events_div">
-                    <!-- All Upcoming Events to be inserted here  -->
+                <!-- <div class="row" id="upcoming_events_div">
+                    All Upcoming Events to be inserted here 
                    
-                </div>
+                </div> -->
+                <h2 class="event">No Upcoming Events...</h2>
             </div>
             
  
 <!--Team-->
 <section id="team" class="section-spacer team-section bg-very__gray">
-    <div  class="container">
+    <div  class="container-fluid">
         <header class="text-center section-header">
             <h2 class="section-title">Meet The Team</h2>
             <span class="section-subtitle">Passionate students driving the success of the program.</span>
         </header>
-
-        <div class="profile-card">
-            <div class="image">
-              <img src="images/Ankit.jpg.jfif" alt="" class="profile-img" />
-            </div>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
       
-            <div class="text-data">
-              <span class="name">Ankit Pawar</span>
-              <span class="job">GDSC LEAD</span>
-            </div>
+                    <div class="card-image">
+                      <img src="images/ankit_pawar.jpg" alt="" class="card-img">
+                    </div>
+                  </div>
       
-            <div class="text-desc">
-              <p>An enthusiastic IT student who aspires to become a Data Scientist and to offer my abilities and knowledge for the future-oriented organization that allows to gain knowledge in the relevant domain.</p>
-            </div>
+                  <div class="card-content">
+                    <h2 class="name">Ankit Pawar</h2>
+                    <span class="job">GDSC Lead</span>
+                    <p class="description">
+                      An enthusiastic IT student who aspires to become a Data Scientist and to offer my abilities and knowledge for the future-oriented organization that allows to gain knowledge in the relevant domain.
+                    </p>
       
-            <div class="media-buttons">
-              <a href="#" style="background: #4267b2" class="link">
-                <i class='bx bxl-linkedin' ></i>
-              </a>
-              <a href="#" style="background: #1da1f2" class="link">
-                <i class="bx bxl-twitter"></i>
-              </a>
-              <a href="https://www.instagram.com/1.618.027_/" style="background: #e1306c" class="link">
-                <i class="bx bxl-instagram"></i>
-              </a>
-              <!-- <a href="#" style="background: #ff0000" class="link">
-                <i class="bx bxl-youtube"></i> -->
-              </a>
-            </div>
+                    <button class="button">View More</button>
+                    <div class="media-buttons">
+                        <a href="https://www.linkedin.com/in/ankit-pawar-30aab2179/" target="_blank" style="background: #4267b2" class="link">
+                          <i class='bx bxl-linkedin' ></i>
+                        </a>
+                        <a href="#" style="background: #1da1f2" class="link">
+                          <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/1.618.027_/" target="_blank" style="background: #e1306c" class="link">
+                          <i class="bx bxl-instagram"></i>
+                        </a>
+                        <!-- <a href="#" style="background: #ff0000" class="link">
+                          <i class="bx bxl-youtube"></i> -->
+                        </a>
+                      </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
       
-            <!-- <div class="buttons">
-              <button class="button">Subscribe</button>
-              <button class="button">Message</button>
-            </div> -->
+                    <div class="card-image">
+                      <img src="images/atul_kumar_gupta2.jpg" alt="" class="card-img">
+                    </div>
+                  </div>
       
-            <!-- <div class="analytics">
-              <div class="data">
-                <i class="bx bx-heart"></i>
-                <span class="number">60k</span>
-              </div>
-              <div class="data">
-                <i class="bx bx-message-rounded"></i>
-                <span class="number">20k</span>
-              </div>
-              <div class="data">
-                <i class="bx bx-share"></i>
-                <span class="number">12k</span>
-              </div> -->
-              <!-- <div>
-                <p>An enthusiastic IT student who aspires to become a Data Scientist and to offer my abilities and knowledge for the future-oriented organization that allows to gain knowledge in the relevant domain.</p>
-              </div> -->
-            </div>
-          </div>
-         <!-- <div class="container-fluid">
-                <div class="row" id="current_year_team">
-                    
-                    Team members to be inserted here 
-
+                  <div class="card-content">
+                    <h2 class="name">Atul Kumar Gupta</h2>
+                    <span class="job">Android Dev Lead</span>
+                    <p class="description">
+                      An enthusiastic IT student who aspires to become a Data Scientist and to offer my abilities and knowledge for the future-oriented organization that allows to gain knowledge in the relevant domain.
+                    </p>
+      
+                    <button class="button">View More</button>
+                    <div class="media-buttons">
+                        <a href="https://www.linkedin.com/in/theatulgupta/" target="_blank" style="background: #4267b2" class="link">
+                          <i class='bx bxl-linkedin' ></i>
+                        </a>
+                        <a href="#" style="background: #1da1f2" class="link">
+                          <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/1.618.027_/" target="_blank" style="background: #e1306c" class="link">
+                          <i class="bx bxl-instagram"></i>
+                        </a>
+                        <!-- <a href="#" style="background: #ff0000" class="link">
+                          <i class="bx bxl-youtube"></i> -->
+                        </a>
+                      </div>
+                  </div>
+                </div><div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+      
+                    <div class="card-image">
+                      <img src="images/ishita_modi.jpg" alt="" class="card-img">
+                    </div>
+                  </div>
+      
+                  <div class="card-content">
+                    <h2 class="name">Ishita Modi</h2>
+                    <span class="job">Management Team Lead</span>
+                    <p class="description">
+                      An enthusiastic IT student who aspires to become a Data Scientist and to offer my abilities and knowledge for the future-oriented organization that allows to gain knowledge in the relevant domain.
+                    </p>
+      
+                    <button class="button">View More</button>
+                    <div class="media-buttons">
+                        <a href="https://www.linkedin.com/in/ishita-modi-177a47210/" target="_blank" style="background: #4267b2" class="link">
+                          <i class='bx bxl-linkedin' ></i>
+                        </a>
+                        <a href="#" style="background: #1da1f2" class="link">
+                          <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/1.618.027_/" target="_blank" style="background: #e1306c" class="link">
+                          <i class="bx bxl-instagram"></i>
+                        </a>
+                        <!-- <a href="#" style="background: #ff0000" class="link">
+                          <i class="bx bxl-youtube"></i> -->
+                        </a>
+                      </div>
+                  </div>
+                </div><div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+      
+                    <div class="card-image">
+                      <img src="images/klevin_s_pascal.jpg" alt="" class="card-img">
+                    </div>
+                  </div>
+      
+                  <div class="card-content">
+                    <h2 class="name">Klevin S Pascal</h2>
+                    <span class="job">Graphics Lead</span>
+                    <p class="description">
+                      An enthusiastic IT student who aspires to become a Data Scientist and to offer my abilities and knowledge for the future-oriented organization that allows to gain knowledge in the relevant domain.
+                    </p>
+      
+                    <button class="button">View More</button>
+                    <div class="media-buttons">
+                        <a href="https://www.linkedin.com/in/klevin-s-pascal-a140a2210/" target="_blank" style="background: #4267b2" class="link">
+                          <i class='bx bxl-linkedin' ></i>
+                        </a>
+                        <a href="#" style="background: #1da1f2" class="link">
+                          <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/1.618.027_/" target="_blank" style="background: #e1306c" class="link">
+                          <i class="bx bxl-instagram"></i>
+                        </a>
+                        <!-- <a href="#" style="background: #ff0000" class="link">
+                          <i class="bx bxl-youtube"></i> -->
+                        </a>
+                      </div>
+                  </div>
+                </div><div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+      
+                    <div class="card-image">
+                      <img src="images/aditya_muley.jpg" alt="" class="card-img">
+                    </div>
+                  </div>
+      
+                  <div class="card-content">
+                    <h2 class="name">Aditya Muley</h2>
+                    <span class="job">CyberSecurity Lead</span>
+                    <p class="description">
+                      An enthusiastic IT student who aspires to become a Data Scientist and to offer my abilities and knowledge for the future-oriented organization that allows to gain knowledge in the relevant domain.
+                    </p>
+      
+                    <button class="button">View More</button>
+                    <div class="media-buttons">
+                        <a href="https://www.linkedin.com/in/aditya-muley-b61200218/" target="_blank" style="background: #4267b2" class="link">
+                          <i class='bx bxl-linkedin' ></i>
+                        </a>
+                        <a href="#" style="background: #1da1f2" class="link">
+                          <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/1.618.027_/" target="_blank" style="background: #e1306c" class="link">
+                          <i class="bx bxl-instagram"></i>
+                        </a>
+                        <!-- <a href="#" style="background: #ff0000" class="link">
+                          <i class="bx bxl-youtube"></i> -->
+                        </a>
+                      </div>
+                  </div>
                 
-                </div> -->
-        </div> 
+                </div>
+              </div>
+            </div>
       
-      <!-- <div class="text-center section-header mt-50">
-        <a href="#" class="hero-button" target="_blank" rel="noopener"> &nbsp;View Past Team</a>
-      </div>
-    </div>
-    f -->
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
 </section> 
 <!--Community--> 
 <section id="community" class="section-spacer workshops-section">
@@ -369,10 +484,10 @@ rel="stylesheet"
             <span class="section-subtitle">Connect with fellow community members by joining us through the links mentiond below.</span>
         </header>
         <div class="custom-menu__right text-center p" style="margin: 30px;">
-            <a href="https://chat.whatsapp.com/EzadtdRfPM6EBVJc1QJcrH" target="_blank" class="event-btn"><i class="fab fa-whatsapp large" style="margin-right: 10px;"></i>Join Whatsapp group</a>
+            <a href="https://gdscmitaoe.github.io/WhatsApp" target="_blank" class="event-btn"><i class="fab fa-whatsapp large" style="margin-right: 10px;"></i>Join Whatsapp group</a>
         </div>
         <div class="custom-menu__right text-center" style="margin: 30px;">
-            <!-- <a href="https://discord.gg/B8r92RuDgK" target="_blank" class="event-btn"><i class="fab fa-discord" style="margin-right: 10px;"></i>Join Discord channel</a> -->
+            <a href="https://discord.gg/B8r92RuDgK" target="_blank" class="event-btn"><i class="fab fa-discord" style="margin-right: 10px;"></i>Join Discord channel</a>
         </div>
     </div>
 </section>
@@ -385,33 +500,87 @@ rel="stylesheet"
         <div class="row flex-column-reverse flex-sm-row flex-lg-row">
             <div class="col-md-4 col-12 text-center">
                 <div class="footer-widget first-of-footer-widget">
-                    <img data-src="images/GDSC Jabalpur Engineering College  Vertical color.jpg" class="logo-sm mb-10" alt="DSC JEC footer logo">
+                    <img data-src="images/GDSC Jabalpur Engineering College Vertical color.jpg" class="logo-sm mb-10" alt="DSC JEC footer logo">
                     <p>Copyright &copy; 2021. All Rights Reserved.</p>
                     <ul class="social-list__inline mt-10">
                         <li>
-                            <a href="https://twitter.com/gdscjec" target="_blank" rel="noopener">
+                            <a href="https://twitter.com/DSCMitaoe" target="_blank" rel="noopener">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/gdscjec" target="_blank" rel="noopener">
+                            <a href="https://github.com/GDSCmitaoe" target="_blank" rel="noopener">
                                 <i class="fab fa-github"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/gdscjec/"target="_blank" rel="noopener">
+                            <a href="https://www.instagram.com/gdscmitaoe/"target="_blank" rel="noopener">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/company/gdscjec" target="_blank" rel="noopener">
+                            <a href="https://linkedin.com/company/gdscmitaoe" target="_blank" rel="noopener">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:official.gdsc@gmail.com" class="far fa-envelope"></a>
+                            <a href="mailto:dsc@mitaoe.ac.in" class="far fa-envelope"></a>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-10">
+                <div class="row">
+                    <div class="col-md-4 col-6">
+                        <div class="footer-widget">
+                            <h4 class="footer-widget__title">Partners</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://www.womentechmakers.com/" target="_blank" rel="noreferrer">Women Techmakers</a>
+                                </li>
+                                <li>
+                                    <a href="https://developers.google.com/experts/" target="_blank" rel="noreferrer">Google Developer Experts</a>
+                                </li>
+                                <li>
+                                    <a href="https://developers.google.com/programs/community/" target="_blank" rel="noreferrer">Google Developer Groups</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="footer-widget">
+                            <h4 class="footer-widget__title">Developers</h4>
+                            <ul>
+                                <li class="list-unstyled">
+                                <li>
+                                    <a href="https://flutter.dev" target="_blank" rel="noreferrer">Flutter</a>
+                                </li>
+                                <li>
+                                    <a href="https://console.cloud.google.com/" target="_blank" rel="noreferrer">Google Cloud Platform</a>
+                                </li>
+                                <li>
+                                    <a href="https://developer.android.com/dev-summit/community-guidelines/" target="_blank" rel="noreferrer">Code of
+                                        conduct</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h4 class="footer-widget__title">Contribute</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://github.com/GDSCmitaoe/GDSCmitaoe.github.io/issues" target="_blank" rel="noreferrer">File a bug</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/GDSCmitaoe/GDSCmitaoe.github.io" target="_blank" rel="noreferrer">View source</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:dsc@dmitaoe.ac.in" target="_blank" rel="noreferrer">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -472,4 +641,12 @@ rel="stylesheet"
 <script src="js/vendors/owl.carousel.min.js"></script>
 <script src="js/custom.js"></script>
 </body>
+
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+
+<!-- Javascript -->
+<script src="js/script.js"></script>
 </html>
