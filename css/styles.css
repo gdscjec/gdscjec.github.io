@@ -1579,7 +1579,7 @@ hr{
 
 .social-list__inline {
   list-style: none;
-  padding: 0  ;
+  padding: 0;
   margin: 0;
 }
 
@@ -2349,4 +2349,14 @@ color: black;
   line-height: 24px;
   font-weight: 400px;
   color: #262626;
+}
+
+.logo-sm-footer {
+  width: 150px;
+  height: 50px;
+}
+
+.section-spacer .footer-section {
+  margin-top: -50px;
+  height: 100px;
 }
