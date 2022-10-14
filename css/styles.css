@@ -1017,6 +1017,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   min-height: 550px;
+  margin-top: 28px;
 }
 
 .hero-content {
