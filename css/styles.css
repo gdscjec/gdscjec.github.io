@@ -27,6 +27,26 @@ body {
   letter-spacing: -.3px;
 
 }
+/* Team logo */
+.Team-logo{
+  display: inline-block;
+  /* float: right; */
+  padding-right: 10vw;
+  max-height: 135px;
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+.main-down-arrow {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  bottom: 3vh;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
 
 /* PROFILE CARD CSS */
 
@@ -235,7 +255,7 @@ forth-letter {
 
 a {
   line-height: 1;
-  color: #2F5BE7;
+  color: #ffffff;
 }
 
 button, .btn {
@@ -2164,7 +2184,7 @@ hr{
 }
 
 .logo-sm {
-  max-width: 200px;
+  max-width: 218px;
 }
 
 .x-hidden {
