@@ -7,3 +7,4 @@
 - [Prince Sahu](https://github.com/Prs0307)
 - [Ayush Pawar](https://github.com/Lusifer14082003)
 - [Babita Majumdar](https://github.com/m-babita)
+- [Kashish Rathore](https://github.com/KashishRathore)
