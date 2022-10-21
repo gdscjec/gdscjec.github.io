@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<title> 
+    Google
+</title>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="C:\Users\hp\Desktop\My Projects\Internship\google.png" alt="" width="30" height="24">
+              </a>
+            </div>
+          </nav>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sasta Google</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Gmail</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Search For
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.google.co.in/">Web</a></li>
+                  <li><a class="dropdown-item" href="https://www.google.co.in/imghp?hl=en&ogbl">Images</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/">Videos</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" href="https://www.google.co.in\">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="C:\Users\hp\Downloads\images (4).jpeg" href="https://store.google.com/product/pixel_6" class="d-block w-100" alt="error" align="right" width="250" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\hp\Downloads\images (3).jpeg" class="d-block w-100" alt="error" align="right" width="250" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\hp\Downloads\images (2).jpeg" class="d-block w-100" alt="error" align="right" width="250" height="400">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      
+          <div class = "container">
+          <section class="mt-5 mb-5">
+          <div class = "row">
+          <div class = "col-lg-4 col-md-6 col-sm-12 mb-3">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Youtube</h5>
+              <p class="card-text">A new way to explore Entertainment</p>
+              <a href="https://www.youtube.com/" class="btn btn-primary">Visit YT</a>
+              </div>
+            </div>
+        </div>
+        
+
+        <div class = "col-lg-4 col-md-6 col-sm-12 mb-3">
+      <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Chrome</h5>
+            <p class="card-text">A new way to browse Internet</p>
+            <a href="https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DAndroid" class="btn btn-primary">Download Now !</a>
+        </div>
+    </div>
+</div>
+
+
+        <div class = "col-lg-4 col-md-6 col-sm-12 mb-3">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Android</h5>
+            <p class="card-text">A new way to explore Future</p>
+            <a href="https://www.android.com/intl/en_in/" class="btn btn-primary">Know more</a>
+        </div>
+        </div>
+        </div>
+        
+
+        <div class = "col-lg-4 col-md-6 col-sm-12 mb-3">
+      <div class="card" style="width: 18rem;"> 
+          <div class="card-body">
+            <h5 class="card-title">Gmail</h5>
+            <p class="card-text">A new way to Build your buissness</p>
+            <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="" class="btn btn-primary">Open gmail</a>
+        </div>
+        </div>
+        </div>
+    
+    </div>
+    </section>
+
+<section class="mb-5">
+    <div class="mb-12">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="button" class="btn btn-warning">Submit</button>
+</section>
+</div>
+</body>
+</head>
