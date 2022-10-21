@@ -113,8 +113,10 @@ body {
 }
 
 .section-title-event{
-margin-left: 292px;  
-text-align: center; 
+  font-size: larger;
+  text-align: center;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 
@@ -159,7 +161,7 @@ text-align: center;
 .button{
   border: none;
   font-size: 16px;
-  color: #FFF;
+  color: rgb(241, 241, 241);
   padding: 8px 16px;
   background-color: #4070f4;
   border-radius: 6px;
@@ -170,15 +172,16 @@ text-align: center;
 
 .button:hover{
   background: #265Df2;
+  color: #fff;
 }
 
 .swiper-navBtn{
-  color: #6e93f7;
+  color: #395ab3;
   transition: color 0.3s ease;
 }
 
 .swiper-navBtn:hover{
-  color: #4070f4;
+  color: #000000;
 }
 
 .swiper-navBtn::before,
@@ -210,6 +213,11 @@ text-align: center;
   .swiper-navBtn{
     display: none;
   }
+}
+@media (max-width: 576px){
+.section-subtitle{
+text-align: center;
+}
 }
 
 .media-buttons {

@@ -1,0 +1,32 @@
+.team-member{
+    padding: 75px 0px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 12px;
+    color: #333;
+}
+h1::after{
+    display: block;
+    content: "";
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+    background-color: #333;
+
+}
+/* .h3{
+    text-align: center;
+    font-weight:100;
+    padding-bottom: 8px;
+    color: #333;
+}*/
+img-box{display: inline-block;
+    box-sizing: border-box;
+    border-radius: 24px;
+} 
+.images{
+    display:flex;
+}
