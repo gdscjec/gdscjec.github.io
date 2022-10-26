@@ -281,8 +281,8 @@ button:focus, .btn:focus {
 }
 
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+ h2, h3, h4, h5, h6,
+ .h2, .h3, .h4, .h5, .h6 {
   color: #1B2733;
   font-family: "Google Sans", sans-serif;
   font-weight: 700;
@@ -291,6 +291,12 @@ h1, h2, h3, h4, h5, h6,
 h2{
   font-size: 25px
 }
+.h1{
+  color: #FFF;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 700;
+}
+
 h1 {
   line-height: 32px;
 }
@@ -340,6 +346,68 @@ p {
 .content {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.header0{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(243, 239, 172, 0.825), rgba(66, 44, 21, 0.853)), url(/images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header1{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(3, 8, 26, 0.853), rgba(31, 43, 91, 0.7)), url(/images/back.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.header2{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(/images/android-dev.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header3{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(/images/web-dev.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header4{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(/images/cloud.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header5{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(147, 204, 235, 0.536)), url(/images/ml.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header6{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(173, 157, 230, 0.679), rgba(190, 208, 218, 0.536)), url(/images/team3.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .container {
@@ -1057,6 +1125,7 @@ p {
 
 .hero-title__group {
   margin-bottom: 30px;
+  color: #FFFFFF;
 }
 
 .hero-title {
@@ -1066,6 +1135,7 @@ p {
   font-weight: 300;
   font-size: 45px;
   font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
 }
 
 .hero-title span {
@@ -1216,7 +1286,7 @@ p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #262626;
+  color: #f5e344;
   font-family: 'Google Sans', sans-serif;
 }
 
@@ -2364,7 +2434,7 @@ color: black;
   font-size: 32px;
   font-family: 'Roboto', sans-serif;
   line-height: 40px;
-  color: #5c5c5c;
+  color: #ffffff;
   font-weight: 700;
 }
 
