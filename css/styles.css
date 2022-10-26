@@ -351,7 +351,7 @@ p {
 .header0{
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(243, 239, 172, 0.825), rgba(66, 44, 21, 0.853)), url(/images/about.jpg);
+  background-image: linear-gradient(rgba(243, 239, 172, 0.825), rgba(66, 44, 21, 0.853)), url(images/about.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -368,7 +368,7 @@ p {
 .header2{
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(/images/android-dev.png);
+  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(images/android-dev.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -377,7 +377,7 @@ p {
 .header3{
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(/images/web-dev.png);
+  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(images/web-dev.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -386,7 +386,7 @@ p {
 .header4{
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(/images/cloud.png);
+  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(115, 194, 237, 0.7)), url(images/cloud.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -395,7 +395,7 @@ p {
 .header5{
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(147, 204, 235, 0.536)), url(/images/ml.jpg);
+  background-image: linear-gradient(rgba(31, 21, 66, 0.853), rgba(147, 204, 235, 0.536)), url(images/ml.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -404,7 +404,7 @@ p {
 .header6{
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(173, 157, 230, 0.679), rgba(190, 208, 218, 0.536)), url(/images/team3.jpg);
+  background-image: linear-gradient(rgba(173, 157, 230, 0.679), rgba(190, 208, 218, 0.536)), url(images/team3.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
