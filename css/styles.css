@@ -360,7 +360,7 @@ p {
 .header1{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(3, 8, 26, 0.853), rgba(31, 43, 91, 0.7)), url(/images/back.png);
+  background-image: linear-gradient(rgba(3, 8, 26, 0.853), rgba(31, 43, 91, 0.7)), url(images/back.png);
   background-position: center;
   background-size: cover;
   position: relative;
