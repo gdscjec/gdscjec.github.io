@@ -1075,8 +1075,8 @@ p {
 }
 
 .navbar-toggler.menu-is-expanded .menu-icon__bar:first-child {
-  -webkit-transform: translateY(7.5px) translateY(-50%) rotate(45deg);
-          transform: translateY(7.5px) translateY(-50%) rotate(45deg);
+	transform: translateY(5.5px) rotate(45deg);
+	-webkit-transform: translateY(5.5px) rotate(45deg);
 }
 
 .navbar-toggler.menu-is-expanded .menu-icon__bar:nth-child(2) {
@@ -1086,8 +1086,8 @@ p {
 }
 
 .navbar-toggler.menu-is-expanded .menu-icon__bar:last-child {
-  -webkit-transform: translateY(-7.5px) translateY(50%) rotate(-45deg);
-          transform: translateY(-7.5px) translateY(50%) rotate(-45deg);
+	transform: translateY(-5.55px) Rotate(-45deg);
+	-webkit-transform: translateY(-5.55px) Rotate(-45deg);
 }
 
 .navbar-brand {
